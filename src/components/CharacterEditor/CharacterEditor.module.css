@@ -34,3 +34,19 @@
 .controlColumn {
   width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .characterWrapper {
+    left: 0;
+    top: 0;
+  }
+
+  .controlColumn {
+    width: 100%;
+    white-space: nowrap;
+  }
+}
